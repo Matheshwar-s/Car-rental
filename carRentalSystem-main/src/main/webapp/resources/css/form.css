@@ -1,0 +1,105 @@
+.form-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    min-width:400px;
+    border-radius:5px;
+    margin-top:24px;
+    max-height:85%;
+    overflow-y:auto;
+    scrollbar-width: thin;
+    scrollbar-color: grey transparent;
+    border:1px solid black;
+}
+
+form, #registrationForm {
+    background-color: inherit;
+    margin-top: 8px;
+    padding:16px 18px;
+    border-radius:0;
+    border:0;
+}
+
+.form-heading {
+    color:white;
+    font-weight:100;
+    font-size:18px;
+    text-align:center;
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+    font-size:14px;
+}
+
+.input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.input:focus {
+    border-color: #E85608;
+    outline: none;
+    box-shadow: 0 0 5px rgba(232, 86, 8, 0.5);
+}
+
+.userTypeContainer {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom:8px;
+}
+
+.userType {
+    width: 60%;
+    margin:0;
+}
+
+.variantIdContainer {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom:8px;
+}
+
+.variantId {
+    width: 60%;
+    margin:0;
+}
+
+.btn {
+    color: white;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.submit-button {
+    background-color: #E85608;
+    margin-bottom:8px;
+}
+
+.submit-button:hover {
+    background-color: #E85421;
+}
+
+.reset-button {
+    color:black;
+    background-color: #aaa;
+}
+
+.reset-button:hover {
+    background-color: #999;
+}
+
+#variantId {
+    color:white;
+}
